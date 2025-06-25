@@ -1,3 +1,4 @@
+import Button from "./Button";
 const AddTodo = () => {
   return <div class="container text-center">
           <div class="row">
@@ -11,7 +12,7 @@ const AddTodo = () => {
             </div>
 
             <div class="col-2">
-              <button type="button" class="btn btn-success">Add</button>
+              <Button btnType='success' btnText='Add'/>
             </div>
 
           </div>

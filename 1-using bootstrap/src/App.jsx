@@ -1,5 +1,7 @@
-import AppName from "./components/AppName"
-import AddTodo from "./components/AddTodo"
+import AddTodo from "./components/AddTodo";
+import AppName from "./components/AppName";
+import TodoItems from "./components/TodoItems";
+
 function App() {
 
   return (
@@ -7,9 +9,10 @@ function App() {
       <center>
         <AppName />
         <AddTodo />
+        <TodoItems />
       </center>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
