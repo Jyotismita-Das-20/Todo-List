@@ -9,7 +9,7 @@ const TodoItems = () => {
 
   return(
     <>
-    {TodoItems.map(item => <TodoItem todoText={item.todoText} todoDate={item.todoDate}/>)}
+    {TodoItems.map(item => <TodoItem key={item.id} id = {item.id} todoText={item.todoText} todoDate={item.todoDate}/>)}
     </>
   );
 };
