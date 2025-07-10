@@ -6,11 +6,9 @@ function App() {
 
   return (
     <>
-      <center>
-        <AppName />
-        <AddTodo />
-        <TodoItems />
-      </center>
+      <AppName />
+      <AddTodo />
+      <TodoItems />
     </>
   );
 }
