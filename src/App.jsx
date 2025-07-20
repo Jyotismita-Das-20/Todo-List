@@ -1,15 +1,17 @@
 import AddTodo from "./components/AddTodo";
 import AppName from "./components/AppName";
+import TestForm from "./components/TestForm";
 import TodoItems from "./components/TodoItems";
 
 function App() {
 
   return (
-    <>
+    <center>
       <AppName />
-      <AddTodo />
-      <TodoItems />
-    </>
+      <TestForm />
+      {/* <AddTodo />
+      <TodoItems /> */}
+    </center>
   );
 }
 
